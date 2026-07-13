@@ -9,3 +9,6 @@ Tools Used:
 - n8n
 - AI
 - Automation
+## Workflow Screenshot
+
+![Workflow](workflow.png)

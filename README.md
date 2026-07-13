@@ -11,4 +11,4 @@ Tools Used:
 - Automation
 ## Workflow Screenshot
 
-![Workflow](workflow.png)
+![Workflow](workflow%20photo.png)

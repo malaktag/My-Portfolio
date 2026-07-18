@@ -1,5 +1,4 @@
 {
-  "name": "My workflow 2",
   "nodes": [
     {
       "parameters": {
@@ -11,8 +10,8 @@
       "type": "n8n-nodes-base.telegramTrigger",
       "typeVersion": 1.3,
       "position": [
-        0,
-        0
+        208,
+        32
       ],
       "id": "adca0773-e7f2-4965-a467-98b32fd5481c",
       "name": "Telegram Trigger",
@@ -32,8 +31,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1.1,
       "position": [
-        64,
-        208
+        336,
+        192
       ],
       "id": "f72b032e-3f8c-4487-b31c-afd06ac53e61",
       "name": "Google Gemini Chat Model",
@@ -56,7 +55,7 @@
       "typeVersion": 3.1,
       "position": [
         336,
-        48
+        32
       ],
       "id": "fab377af-64ee-4385-9821-f4cf7e028c59",
       "name": "AI Agent",
@@ -64,15 +63,15 @@
     },
     {
       "parameters": {
-        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "={{ $('Telegram Trigger').item.json.message.text }}",
+        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}{{ $json.output }}",
+        "text": "={{ $json.output }}",
         "additionalFields": {}
       },
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        688,
-        48
+        592,
+        32
       ],
       "id": "244236b4-46f0-481d-8ec9-6e1eb0c2fa2e",
       "name": "Send a text message",
@@ -85,7 +84,6 @@
       }
     }
   ],
-  "pinData": {},
   "connections": {
     "Telegram Trigger": {
       "main": [
@@ -121,18 +119,9 @@
       ]
     }
   },
-  "active": true,
-  "settings": {
-    "executionOrder": "v1",
-    "binaryMode": "separate",
-    "availableInMCP": false
-  },
-  "versionId": "8c94ad15-42e6-4814-b1bf-1e7dd40a237e",
+  "pinData": {},
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "c21492990cf81c8e76ebd160fb4373307069f24be62dbdc914ac596a37e5fdbd"
-  },
-  "nodeGroups": [],
-  "id": "dFWBkuTroF0CddD2",
-  "tags": []
+  }
 }

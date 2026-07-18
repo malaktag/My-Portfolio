@@ -38,7 +38,6 @@ An automated Telegram bot built via n8n and integrated with Google Gemini. It re
   * Real-time message triggering via Telegram.
   * Context-aware AI processing for accurate spelling corrections.
   * Instant automated replies.
-<img width="1536" height="1024" alt="ChatGPT Image Jul 14, 2026, 09_27_58 PM" src="https://github.com/user-attachments/assets/387b0d98-0aac-4537-9d93-3fcac48e21a7" />
 
 ###  Arabic / بالعربية
 نظام متكامل مبني باستخدام منصة n8n ومدمج مع نموذج الذكاء الاصطناعي Google Gemini لتلقي النصوص العربية من تليجرام، وتصحيحها إملائياً ونحوياً بشكل ذكي وسريع.

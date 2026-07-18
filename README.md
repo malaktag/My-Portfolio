@@ -47,6 +47,3 @@ An automated Telegram bot built via n8n and integrated with Google Gemini. It re
   * استقبال الرسائل والنصوص مباشرة من المستخدمين عبر تليجرام (Telegram Trigger).
   * معالجة ذكية وفهم سياق الجملة لتصحيح الأخطاء الشائعة (AI Agent Node).
   * إعادة إرسال النص المصحح تلقائياً للمستخدم فوراً.
-## Workflow Screenshot
-
-![Workflow](workflow%20photo.png)
